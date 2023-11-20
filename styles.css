@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, purple, blue); /* Replace 'purple' and 'blue' with your actual gradient colors */
+}
+
+
+
+header {
+    background-color: rgb(60, 29, 64);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#game-library, #favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@keyframes rainbow {
+    0% {color: red;}
+    14% {color: orange;}
+    28% {color: yellow;}
+    42% {color: lime;}
+    57% {color: blue;}
+    71% {color: indigo;}
+    85% {color: violet;}
+    100% {color: red;}
+}
+
+.rainbow-text h1 {
+    animation: rainbow 4s linear infinite;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.game-image {
+    width: 300px;  
+    height: 210px; 
+    object-fit: contain; 
+    margin: 10px; 
+}
+
+#favorites {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+#logo, #paper-mario {
+    position: fixed;
+    right: 0;
+}
+
+#logo {
+    top: 80%;
+    transform: translateY(-50%);
+}
+
+#paper-mario {
+    top: 105%;
+    right: 180px; 
+    transform: translateY(-50%);
+}
+
+#header-image {
+    width: 100%; 
+    height: auto; 
+}
+
+
+
+  
+
