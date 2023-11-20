@@ -60,9 +60,9 @@ window.onload = function() {
 
 function displayGames(gameLibraryId, games) {
     const gameLibrary = document.getElementById(gameLibraryId);
-    gameLibrary.innerHTML = ''; 
+    gameLibrary.innerHTML = ''; // Clear the game library
 
-    
+    // Create a new div for the section header
     const headerDiv = document.createElement('div');
     headerDiv.innerHTML = `<h1>${gameLibraryId.toUpperCase().replace('-', ' ')}</h1>`;
     gameLibrary.appendChild(headerDiv);
