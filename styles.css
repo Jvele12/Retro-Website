@@ -69,7 +69,48 @@ body {
     height: auto; 
 }
 
+#summary-Super-Mario-World {
+    /* CSS rules for Super Mario World summary */
+    color: rgb(34, 30, 30);
+    font-size: 24px;
+    text-align: right;
+}
 
+#summary-Super-Mario-Kart {
+    /* CSS rules for Super Mario Kart summary */
+    color: rgb(23, 23, 24);
+    font-size: 24px;
+    text-align: right;
+}
+
+#summary-EarthBound {
+    /* CSS rules for EarthBound summary */
+    color: rgb(33, 36, 33);
+    font-size: 24px;
+    text-align: right;
+}
+
+#summary-Super-Mario-All-Stars {
+    /* CSS rules for Super Mario All Stars summary */
+    color: rgb(31, 28, 31);
+    font-size: 24px;
+    text-align: right;
+}
+
+#summary-Super-Mario-Advance-4-Super-Mario-Bros-3 {
+    /* CSS rules for Super Mario All Stars summary */
+    color: rgb(34, 32, 34);
+    font-size: 24px;
+    text-align: right;
+}
+
+#summary-Pokemon-Firered-and-LeafGreen {
+    /* CSS rules for Super Mario All Stars summary */
+    color: rgb(21, 19, 21);
+    font-size: 24px;
+    text-align: right;
+}
+/* Add more CSS rules for other game summaries */
 
   
 
